@@ -1,0 +1,126 @@
+
+    *{
+        font-family:  "Raleway", sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(white , rgb(249, 230, 233));
+    }
+.banner 
+{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    border: bisque 1px solid;
+    padding: 20px 30px;  
+}
+.banner-content{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content h1 span{
+    color: violet;
+    font-weight: 18px;
+}
+.banner-content p{
+    font-size: 18px;
+    font:medium;
+    color: #a8a8a8;
+
+}
+
+.btn{
+background-color: rgb(238, 209, 130);
+border-radius: 30px;
+padding: 16px 32px;
+color: rgb(244, 13, 13);
+cursor: pointer;
+margin: 10px 0px;
+}
+.heading-content{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading-content h4{
+    color:violet;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.heading-content h2{
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.
+.btn:hover  
+{
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+.banner-image{
+    width: 40%;
+    height: auto;
+    
+}
+
+
+.service{
+     width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    
+}
+.service-card-container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 30px;
+}
+.service-card{
+    background-color: white;
+    padding:  60px;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+.service-card img{
+    margin-bottom: 30px;
+}
+.service-card h2{
+    font-weight: semibold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.service-card p{
+    font-size: 18px;
+    color: #a8a8a8;
+;
+}
