@@ -76,7 +76,7 @@ margin: 10px 0px;
     font-size: 44px;
 }
 
-.
+
 .btn:hover  
 {
     background-color: red;
@@ -122,5 +122,82 @@ gap: 30px;
 .service-card p{
     font-size: 18px;
     color: #a8a8a8;
-;
+
+}
+.story-card{
+    background-color: white;
+    padding:  60px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+.story-content *{
+    margin-bottom: 20px;
+}
+.story-content h2{
+    width: 60%;
+}
+
+.country-card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.country-card-container h2{
+    background-color: white;
+    padding:  40px;
+    border-radius: 24px;
+   
+}
+.review-card-container{
+    padding-bottom: 40px;
+   margin-bottom:40px ;
+   
+}
+.review-card{
+    text-align:center;
+    background-color: white;
+    padding: 40px;
+    margin-bottom 80px; ;
+    width: 85%;
+    margin: auto;
+    border-radius: 24px;
+    padding-bottom: 10px;
+     margin-bottom: 40px;
+     
+}
+
+.review-card-bg{
+     padding-bottom: 30px;
+     
+}
+
+.review-card p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.reviewers{
+    align-items: center;
+   margin-top: 30px;
+    
+}
+.reviewers p{
+padding-top: 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+background-color: white;
+    padding: 10px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+
 }
